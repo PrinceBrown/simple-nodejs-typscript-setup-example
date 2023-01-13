@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "dist",
+        "target": "es6",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*"
+, "app.ts"    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
